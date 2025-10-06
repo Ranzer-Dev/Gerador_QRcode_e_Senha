@@ -49,7 +49,7 @@ O projeto serve como exemplo introdutório de como importar e utilizar pacotes N
 4. **Execute o programa:**
 
    ```bash
-   node src/index.js
+   npm run start:dev
    ```
 
 ---
