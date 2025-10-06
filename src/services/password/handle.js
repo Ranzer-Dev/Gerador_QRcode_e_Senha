@@ -1,26 +1,6 @@
-async function permittedCharacters() {
-    let permitted = []
+import permittedCharacters from "./utils/permitted-characters.js"
 
-    if (process.env.UPPERCASE_LETTERS === 'true') {
-        permitted.push(... "ABCDEFGHIJKLMNOPQRSTUVXYZ")
-    }
-
-    if (process.env.LOWERCASE_LETTERS === 'true') {
-        permitted.push(... "abcdefghijklmnopqrstuvxyz")
-    }
-
-    if (process.env.NUMBERS === 'true') {
-        permitted.push(... "1234567890")
-    }
-
-    if (process.env.SPECIAL_CARACTERS === 'true') {
-        permitted.push(... "!@#$%¨&*_/-=+")
-    }
-
-    return permitted
-}
-
-async function handle() {
+export default async function handle() {
     let characters = []
     let password = ""
 
@@ -32,7 +12,4 @@ async function handle() {
     }
 
     return password
-    
 }
-
-export default handle;
