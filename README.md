@@ -63,15 +63,6 @@ O projeto serve como exemplo introdutório de como importar e utilizar pacotes N
 
 ---
 
-## 💡 Melhorias futuras
-
-* Adicionar interface web simples para geração de QR Code.
-* Permitir exportar QR Codes em diferentes formatos (PNG, SVG).
-* Gerar senhas com regras personalizadas (símbolos, números, maiúsculas, etc.).
-* Adicionar testes automatizados.
-
----
-
 ## 📜 Licença
 
 Este projeto está sob a licença MIT.
