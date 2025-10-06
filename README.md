@@ -26,21 +26,6 @@ O projeto serve como exemplo introdutório de como importar e utilizar pacotes N
 
 ---
 
-## 🧩 Estrutura de diretórios
-
-```
-Gerador_QRcode_e_Senha/
-├── src/
-│   ├── index.js          # Arquivo principal
-│   ├── qrGenerator.js    # Função responsável pelo QR Code
-│   └── senhaGenerator.js # Função responsável pela senha
-├── package.json
-├── package-lock.json
-└── .gitignore
-```
-
----
-
 ## ⚙️ Como executar
 
 1. **Clone o repositório:**
