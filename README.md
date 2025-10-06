@@ -23,7 +23,6 @@ O projeto serve como exemplo introdutório de como importar e utilizar pacotes N
 * **Bibliotecas utilizadas:**
 
   * `qrcode` — para criação de QR Codes
-  * `crypto` — para geração de senhas seguras
 
 ---
 
